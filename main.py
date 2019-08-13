@@ -45,7 +45,7 @@ def format_email(frm, to, search_term, headers, page):
             str(headers))
 
     # Adding an attachment to the message
-    message.attach(email.mime.text.MIMEText(body, "plain"))
+    message.attach(MIMEText(body, "plain"))
     attachment = MIMEBase("application", "octet-stream")
     attachment.set_payload(page)
     email.encoders.encode_base64(attachment)
