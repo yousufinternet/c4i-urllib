@@ -1,0 +1,1 @@
+A very simple scripts that fetches results for a specific search term from wikipedia and sends them to an email, including the page header info, written to fullfil **Code4Iraq** Python path requirements.
