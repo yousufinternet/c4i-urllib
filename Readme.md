@@ -4,15 +4,15 @@ A very simple scripts that fetches results for a specific search term from wikip
 # Usage:
 
 ```
-main.py [-h] -s SEARCH\_TERM -e EMAIL [-f FROM_EMAIL]
+main.py [-h] -s SEARCH_TERM -e EMAIL [-f FROM_EMAIL]
 
 Simple script to send the results of a wikipedia search to an email
 
 optional arguments:
   -h, --help            show this help message and exit
-  -s SEARCH\_TERM, --search-term SEARCH\_TERM
+  -s SEARCH_TERM, --search-term SEARCH_TERM
   -e EMAIL, --email EMAIL
-  -f FROM\_EMAIL, --from-email FROM\_EMAIL
+  -f FROM_EMAIL, --from-email FROM_EMAIL
 ```
 
 ## Example:
